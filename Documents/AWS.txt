@@ -1,0 +1,32 @@
+ECS
+• ECS = Elastic Container Service
+• Launch Docker containers on AWS
+• You must provision & maintain the infrastructure (the EC2 instances)
+• AWS takes care of starting / stopping containers
+• Has integrations with the Application Load Balancer
+
+Amazon Elastic Container Service (Amazon ECS) is a fully managed container orchestration service that helps you easily deploy, manage, and 
+scale containerized applications. As a fully managed service, Amazon ECS comes with AWS configuration and operational best practices built-in.
+
+Amazon EMR
+• EMR stands for “Elastic MapReduce”
+• EMR helps creating Hadoop clusters (Big Data) to analyze and process vast amount of data
+• The clusters can be made of hundreds of EC2 instances
+• Also supports Apache Spark, HBase, Presto, Flink…
+• EMR takes care of all the provisioning and configuration
+• Auto-scaling and integrated with Spot instances
+• Use cases: data processing, machine learning, web indexing, big data…
+
+AWS Lambda
+• AWS Lambda is an Amazon serverless computing system that runs code and automatically manages the underlying computing resources like (EC2).
+
+AWS Glue 
+• Managed extract, transform, and load (ETL) service 
+• Useful to prepare and transform data for analytics 
+• Fully serverless service 
+
+AWS S3
+• Amazon S3 is a Simple Storage Service in AWS that stores files of different types like Photos, Audio, and Videos as Objects providing 
+more scalability and security to. 
+• It allows the users to store and retrieve any amount of data at any point in time from anywhere on the web. 
+• It facilitates features such as extremely high availability, security, and simple connection to other AWS Services.

@@ -1,0 +1,132 @@
+1]Sales Table - order_date, amount
+Write a SQL query to find the percentage change in sales amount from the previous day for each day.
+
+SELECT
+    order_date,
+    amount,
+    LAG(amount) OVER (ORDER BY order_date) AS previous_day_amount,
+    CASE
+        WHEN LAG(amount) OVER (ORDER BY order_date) IS NULL THEN NULL
+        ELSE ((amount - LAG(amount) OVER (ORDER BY order_date)) / LAG(amount) OVER (ORDER BY order_date)) * 100
+    END AS percentage_change
+FROM
+    Sales;
+
+
+2]Order - order_id, order_date, amount
+order_id	order_date	amount
+1		2022-01-05	150
+2		2022-01-10	200
+3		2022-03-25	250
+4		2023-04-20	400
+5		2022-02-12	350
+Write SQL query to find the total amount of orders made in each month of the year 2022.
+Expected Output:
+Month Total_amount
+1	1500
+2	2000
+3	1800
+4	2200
+5	2500
+
+select Extract (Month from order_date) Month, Sum(amount) Total_amount
+from Order
+where Extract (Year from order_date) = 2022
+Group by Extract (Month from order_date)
+order by Month;
+
+3]my_list = [1,2,3,3,4,4,5]
+
+ar = []
+
+for i in my_list:
+	if my_list.count(i) > 1:
+		ar.append(i);
+
+1. Pandas- reading csv, saving df, adding column, deleting columns, 
+2. SQL - Window functions, Date Time functions, 
+3. PySpark - reading csv, saving df, adding column, deleting columns,
+
+
+
+Orders: order_id, customer_id, order_date
+order_item:order_id, product_id, quantity, price
+Write a query to find the total revenue generated for each customer in the last month?
+
+with cte as
+(select customer_id, date_sub(order_date,1), quantity*price as revenue
+from Orders)
+select customer_id, sum(revenue)
+from cte
+group by customer_id;
+
+Employee
+department  emp_id  Salary
+
+with cte as
+(select *, rank()over(partition by department order by salary) rank_num
+from employee)
+select emp_id, salary
+from cte 
+where rank_num = 2;
+
+name1 = akshay
+name = name1.lowerCase()
+char_count = {}
+
+def count_chars(name):
+	for i in name:
+		char_count.get(i, 0) + 1
+	return char_count;
+
+Reverse a string 
+
+name1 = Akshay
+name = name1.lowerCase()
+
+def reverse_name(name):
+	return [::-1]
+
+def save_csv(df):
+	csv.writer()
+
+import pandas as pd
+
+df = pd.read_csv(r'Filepath');
+df1 = df.groupby('column').sum();
+print(df1);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

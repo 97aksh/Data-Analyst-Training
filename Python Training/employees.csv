@@ -1,0 +1,33 @@
+emp_no,first_name,last_name,salary,birth_date,gender,joining_date,department
+1001,James,Bond,45300,19-01-1998,M,29-11-2020,Marketing
+1002,Robert,Lee,69410,02-09-1998,M,26-12-2019,IT
+1003,Mary,Wood,39518,07-11-1997,F,12-09-2019,Business Development
+1004,John,Cole,36264,01-02-1999,M,14-04-2021,HR
+1005,Jennifer,Gill,48941,05-06-1996,F,28-06-2019,Marketing
+1006,Michael,Watts,23800,16-04-1999,M,09-06-2022,HR
+1007,David,Mills,39400,26-04-1998,M,17-10-2021,IT
+1008,William,Hill,26392,21-10-1999,M,30-09-2019,Business Development
+1009,Linda,Potter,55231,24-01-1998,F,07-08-2021,Finance
+1010,Richard,Martin,25600,07-08-1996,M,23-03-2021,IT
+1011,Susan,Hall,54152,27-12-1999,F,07-08-2020,Finance
+1012,Joseph,Turner,60556,13-05-1997,M,02-09-2019,Marketing
+1013,Mary,Gill,58246,21-01-1999,F,30-04-2021,Business Development
+1014,Thomas,Ryan,23676,12-10-1996,M,02-03-2022,IT
+1015,Charles,Williams,57226,29-01-2000,M,05-11-2019,NULL
+1016,Jessica,Clark,NULL,25-01-2000,F,24-01-2020,IT
+1017,Nancy,Parker,66900,24-10-1996,F,09-01-2022,Finance
+1018,Betty,Barker,35288,13-11-1998,F,26-12-2019,HR
+1019,Christopher,Gibson,59341,23-04-1998,M,02-05-2019,Marketing
+1020,Daniel,Elliott,44012,21-01-1999,M,08-01-2023,IT
+1021,David,Mills,NULL,24-01-1998,M,26-12-2019,IT
+1022,Sarah,Harrison,44692,20-03-1996,F,03-05-2020,Finance
+1023,Matthew,Hill,41365,16-05-1998,M,23-05-2019,IT
+1024,Anthony,Miller,56794,30-06-1996,M,28-02-2019,Business Development
+1025,Mark,Wood,65120,29-10-1998,M,30-07-2020,Business Development
+1026,Elizabeth,Walker,47030,11-08-1998,F,18-06-2021,NULL
+1027,Barbara,Anderson,NULL,27-12-1999,F,14-03-2021,HR
+1028,Jessica,Clark,63836,24-01-1998,F,23-05-2021,IT
+1029,Nancy,Cole,63669,26-01-2000,F,26-12-2019,Finance
+1030,Joe,Brooks,44000,05-08-1999,M,09-03-2021,Business Development
+1001,James,Bond,45300,19-01-1998,M,29-11-2020,Marketing
+1002,Robert,Lee,69410,02-09-1998,M,26-12-2019,IT

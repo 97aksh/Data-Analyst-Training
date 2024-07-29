@@ -1,0 +1,56 @@
+Q1
+
+arr = []
+for i in range(1,x+1):
+    arr.append(i**2)
+print(arr)
+
+arr = [i**2 for i in range(1,x+1)]
+print(arr)
+
+
+Q2
+
+def factorial(x):
+    n=1
+    for i in range(1,x+1):
+        n*=i
+    return n
+
+print(factorial(x))
+
+
+def factorial_list(x):
+    arr=[]
+    n=1
+    for i in range(1,x+1):
+        n*=i
+        arr.append(n)
+    return arr
+
+print(factorial_list(x))
+
+
+Q3
+
+dict={}
+for i in range(1,6):
+    dict[i]=i**2
+dict
+
+
+Q4
+
+        arr = []
+        for i in nums:
+            if i!=0:
+                arr.append(i)
+        
+        for i in nums:
+            if i==0:
+                arr.append(i)
+
+	print(arr)
+
+
+
